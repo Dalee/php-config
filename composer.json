@@ -1,0 +1,13 @@
+{
+    "name": "ns3777k/php-config",
+    "description": "Set of usable php configurations such as php-cs-fixer, ...",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nikita Safonov",
+            "email": "ns3777k@gmail.com"
+        }
+    ],
+    "require": {}
+}
