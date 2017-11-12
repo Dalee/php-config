@@ -10,6 +10,16 @@ $ composer require --dev dalee/php-config
 
 ### php-cs-fixer
 
+To make it work you have to create `.php_cs.dist` with `Dalee\CodeStyle\Config`:
+
+```php
+return Dalee\CodeStyle\Config::create()
+	->setFinder(
+		PhpCsFixer\Finder::create()
+			->in(__DIR__ . '/src')
+	);
+```
+
 ### phpcs
 
 To extend the ruleset create your own `ruleset.xml`:

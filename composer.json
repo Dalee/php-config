@@ -8,5 +8,13 @@
             "name": "Dalee IA",
             "email": "dev@dalee.ru"
         }
-    ]
+    ],
+    "require": {
+        "friendsofphp/php-cs-fixer": "^2.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dalee\\CodeStyle\\": "./src"
+        }
+    }
 }
