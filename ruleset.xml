@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<ruleset name="php-config">
+	<description>Dalee coding standard.</description>
+
+	<arg name="extensions" value="php,inc" />
+	<arg name="encoding" value="utf-8" />
+	<arg name="tab-width" value="4" />
+
+	<!-- We use tabs instead spaces: -->
+	<rule ref="Generic.WhiteSpace.DisallowSpaceIndent" />
+	<rule ref="Generic.WhiteSpace.ScopeIndent">
+		<properties>
+			<property name="tabIndent" value="true" />
+			<property name="ignoreIndentationTokens" type="array" value="T_DOC_COMMENT,T_COMMENT" />
+		</properties>
+	</rule>
+
+	<rule ref="Generic.Classes.DuplicateClassName" />
+	<rule ref="Generic.CodeAnalysis.JumbledIncrementer" />
+	<rule ref="Generic.CodeAnalysis.UnconditionalIfStatement" />
+	<rule ref="Generic.CodeAnalysis.UselessOverridingMethod" />
+	<rule ref="Generic.Files.ByteOrderMark" />
+	<rule ref="Generic.Files.LineEndings" />
+	<rule ref="Generic.Files.OneInterfacePerFile" />
+	<rule ref="Generic.Files.OneTraitPerFile" />
+	<rule ref="Generic.Functions.CallTimePassByReference" />
+	<rule ref="Generic.Functions.FunctionCallArgumentSpacing" />
+	<rule ref="Generic.Functions.OpeningFunctionBraceKernighanRitchie">
+		<properties>
+			<property name="checkClosures" value="true" />
+		</properties>
+	</rule>
+	<rule ref="Generic.NamingConventions.UpperCaseConstantName" />
+	<rule ref="Generic.PHP.CharacterBeforePHPOpeningTag" />
+	<rule ref="Generic.PHP.DeprecatedFunctions" />
+	<rule ref="Generic.PHP.DisallowShortOpenTag" />
+	<rule ref="Generic.PHP.LowerCaseConstant" />
+	<rule ref="Generic.PHP.LowerCaseKeyword" />
+	<rule ref="Generic.PHP.SAPIUsage" />
+
+	<rule ref="PEAR.Functions.ValidDefaultValue" />
+
+	<rule ref="PSR2.ControlStructures.ControlStructureSpacing" />
+	<rule ref="PSR2.Files.ClosingTag" />
+	<rule ref="PSR2.Files.EndFileNewline" />
+	<rule ref="PSR2.Namespaces.NamespaceDeclaration" />
+	<rule ref="PSR2.Namespaces.UseDeclaration" />
+
+	<rule ref="Squiz.ControlStructures.ControlSignature" />
+	<rule ref="Squiz.WhiteSpace.CastSpacing" />
+	<rule ref="Squiz.WhiteSpace.ScopeClosingBrace" />
+</ruleset>
