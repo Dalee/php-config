@@ -3,7 +3,7 @@
 A set of php configurations for different cool utils such as `php-cs-fixer`.
 
 ```
-$ composer require --dev ns3777k/php-config
+$ composer require --dev dalee/php-config
 ```
 
 ## Usage
@@ -18,9 +18,9 @@ To extend the ruleset create your own `ruleset.xml`:
 ```xml
 <?xml version="1.0"?>
 <ruleset name="MyStandard">
-    <description>Coding standard based on ns3777k/php-config with some additions.</description>
+    <description>Coding standard based on dalee/php-config with some additions.</description>
     <file>./src</file>
-    <rule ref="./vendor/ns3777k/php-config/ruleset.xml" />
+    <rule ref="./vendor/dalee/php-config/ruleset.xml" />
 </ruleset>
 ```
 

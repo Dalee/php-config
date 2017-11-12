@@ -1,13 +1,12 @@
 {
-    "name": "ns3777k/php-config",
-    "description": "Set of usable php configurations such as php-cs-fixer, ...",
+    "name": "dalee/php-config",
+    "description": "A set of php configurations for different cool tools such as php-cs-fixer, etc",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Nikita Safonov",
-            "email": "ns3777k@gmail.com"
+            "name": "Dalee IA",
+            "email": "dev@dalee.ru"
         }
-    ],
-    "require": {}
+    ]
 }
