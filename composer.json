@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Dalee\\CodeStyle\\": "./src"
+            "Dalee\\": "./src"
         }
     }
 }
